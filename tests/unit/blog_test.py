@@ -26,4 +26,3 @@ class BlogTest(TestCase):
 
         self.assertEqual(b.__repr__(), 'Test by Test Author (1 post)')
         self.assertEqual(b2.__repr__(), 'Test 2 by Dan (2 posts)')
-
