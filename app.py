@@ -1,6 +1,5 @@
-from email import contentmanager
-
 from blog import Blog
+from post import Post
 
 MENU_PROMPT = 'Enter a option: "C" to create a blog, "L" to list blogs, "R" to read one, "P" to create a post or "Q" to quit.'
 POST_TEMPLATE = '''
